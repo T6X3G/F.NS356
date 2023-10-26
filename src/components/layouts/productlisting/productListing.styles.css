@@ -1,0 +1,62 @@
+.product-listing-container{
+    margin-top: 5%;
+}
+
+.listing-container{
+    padding-top: 4rem ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-listing-card{
+    border: 1px solid #111;
+    width: fit-content;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.product-listing-image{
+    width: 200px;
+} 
+
+.product-listing-details-container{
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.product-listing-details-container h3{
+
+    font-family: Chivo Mono;
+
+}  
+.author-name{
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+}
+
+.pricing{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.product-listing-button{
+    background-color: var(--primary-color);
+    display: inline-block;
+    background-color: #000;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+    font-family: Chivo Mono;
+    text-decoration: none;
+    margin-top: 2rem;
+    transition: 0.2s ease-in;
+}
+
+.product-listing-button:hover{
+    background-color: var(--primary-color);
+}
